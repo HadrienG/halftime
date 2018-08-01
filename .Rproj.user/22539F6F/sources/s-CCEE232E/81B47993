@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1533116013664.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "81B47993",
+    "lastKnownWriteTime" : 1533124021,
+    "last_content_update" : 1533124021753,
+    "path" : "~/Documents/github/2018_halftime/halftime.Rmd",
+    "project_path" : "halftime.Rmd",
+    "properties" : {
+        "cursorPosition" : "46,25",
+        "scrollLine" : "30",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
