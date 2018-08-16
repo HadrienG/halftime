@@ -13,3 +13,11 @@
     background-color: #283c64;
     opacity: 0.8;
 }
+
+#intro-text-box {
+    font-size: 1.4em;
+    background-color: #283c64;
+    color: #fefefe;
+    opacity: 0.8;
+    text-align: center;
+}

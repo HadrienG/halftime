@@ -16,7 +16,13 @@ output:
             slideNumber: true
 ---
  
-# Outline
+## {#intro-slide data-background="assets/img/background.jpg"}
+
+
+<div id="intro-text-box">Coral reefs are one of the most diverse ecosystem on the planet.</div><br>
+<div id="intro-text-box" class="fragment fade-left">They face great challenges and their population is rapidely declining.</div><br>
+<div id="intro-text-box" class="fragment fade-left">Can research help?</div>
+
 
 ## /!\\ this is a temporary slide /!\\
 
