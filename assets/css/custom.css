@@ -14,6 +14,12 @@
     opacity: 0.8;
 }
 
+.reveal section img {
+    border-style: none;
+    background: none;
+    box-shadow: none;
+}
+
 #intro-text-box {
     font-size: 1.4em;
     background-color: #283c64;
