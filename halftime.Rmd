@@ -63,35 +63,51 @@ ggplot() +
 
 # Survey of the field
 
-## on steroids!
+## Literature review
 
+- previous studies focusing on 16S
+- limited power, no functional insight?
 
-## /!\\ this is a temporary slide /!\\
+## Are there global patterns?
 
-- Introduction, sampling sites, corals
-- What do we know about the microbiome of coral reefs?
-    - 16S reanalysis study
-- New methods will be more insightful
-    - iss
-    - class validation
-    - surrounding the reef
-    - mucus study
+- analysis in progress
 
-# Introduction
+# Whole metagenome Sequencing
 
-##
+- Function / metabolism
+- is hard to analyse
 
-- bleaching 
-- background of loss of habitat
+## Taxonomy classification
 
-## Why is it important?
+- blast
+- diamond
+- kraken
+- kaiju
+- centrifuge
+- despi
+- sourmash
+- salmon
+- mmseqs2
+- rapsearch
+- ...
 
-- huge biodiversity
-- fishing
+## Let's benchmark!
 
-# Study 1
+> Gourlé, Hadrien, et al. "Simulating Illumina Metagenomic Data with InSilicoSeq." Bioinformatics (2018).
 
-## A literature review
-<div class="fragment grow" data-fragment-index="1">
-### on steroids!
-</div>
+```
+pip install insilicoseq
+iss generate -h
+```
+
+## Results of benchmarking hopefully coming at the end of this year
+
+# Applying WMS to coral reef communities
+
+## Surrounding the reef
+
+*TODO*
+
+## A dive in the coral reef microbiome
+
+*TODO*
