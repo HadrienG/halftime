@@ -24,37 +24,9 @@ output:
 <div id="intro-text-box" class="fragment fade-left">They face great challenges and their population is rapidely declining.</div><br>
 <div id="intro-text-box" class="fragment fade-left">Can research help?</div>
 
-## Where?
+## Where? {#map data-background="assets/img/map_cropped.png"}
 
-```{r map, echo=FALSE, dev.args = list(bg = 'transparent')}
-library(ggplot2)
-library(ggmap)
-library(maps)
-library(mapdata)
-africa <- map_data("world")
-
-mau <- data.frame(
-  long = c(57.5522),
-  lat = c(-20.3484))
-kenya <- map_data("world", region = "Kenya")
-# mauritius <- map_data("world", region = "Mauritius")
-ggplot() +
-    geom_polygon(data = africa, color = "white",
-                 aes(x=long, y = lat, group = group)) +
-    geom_polygon(data = kenya, fill = "red",
-                 aes(x=long, y = lat, group = group)) +
-    # geom_polygon(data = mauritius, fill = "red",
-                 # aes(x=long, y = lat, group = group, size = 40)) +
-    geom_point(data = mau, aes(x = long, y = lat), color = "red", size = 2) +
-    coord_fixed(1.3) +
-    xlim(-18, 58) + ylim(-35, 40) +
-    xlab("") +
-    ylab("") +
-    theme_minimal() +
-    theme(axis.text.x = element_blank(), axis.text.y = element_blank(),
-          panel.grid.major = element_blank(),
-          panel.grid.minor = element_blank())
-```
+  
 
 ## What?
 
@@ -65,48 +37,43 @@ ggplot() +
 
 ## Literature review
 
-- previous studies focusing on 16S
-- limited power, no functional insight?
+## 13 metabarcoding studies
+![](assets/img/phyla_bar.png)
 
-## Are there global patterns?
+## 13 metabarcoding studies
+![](assets/img/bleached_boxplot.png)
 
-- analysis in progress
+## But...
+
+<div class="fragment fade-in">
+<h3>what do they do?</h3>
+</div>
 
 # Whole metagenome Sequencing
 
-- Function / metabolism
-- is hard to analyse
+- Give insight into function and metabolism
 
-## Taxonomy classification
+## {data-background="assets/img/wordcloud.svg"}
 
-- blast
-- diamond
-- kraken
-- kaiju
-- centrifuge
-- despi
-- sourmash
-- salmon
-- mmseqs2
-- rapsearch
-- ...
+## Which one works best?
 
-## Let's benchmark!
+No **independant**, **comprehensive** and **extensible** benchmarks of taxonomic classifiers exists yet
 
-> Gourlé, Hadrien, et al. "Simulating Illumina Metagenomic Data with InSilicoSeq." Bioinformatics (2018).
+## Which one works best?
 
-```
-pip install insilicoseq
-iss generate -h
-```
+![](assets/img/iss.png)
 
-## Results of benchmarking hopefully coming at the end of this year
+doi: 10.1093/bioinformatics/bty390
+
+## {data-background="assets/img/wordcloud.svg"}
 
 # Applying WMS to coral reef communities
 
 ## Surrounding the reef
 
-*TODO*
+Ultra-deep sequencing of sediment and water samples in close proximity of coral reefs
+
+## {data-background="assets/img/dive.svg"}
 
 ## A dive in the coral reef microbiome
 
