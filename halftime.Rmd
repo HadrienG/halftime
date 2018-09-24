@@ -37,6 +37,10 @@ output:
 
 ## Literature review
 
+## The workflow {#workflow-slide}
+
+![](assets/img/dag_16s.svg)
+
 ## 13 metabarcoding studies
 ![](assets/img/phyla_bar.png)
 
@@ -52,6 +56,10 @@ output:
 # Whole metagenome Sequencing
 
 - Give insight into function and metabolism
+
+## WMS - The workflow {#workflow-wms}
+
+![](assets/img/dag_wms.svg)
 
 ## {data-background="assets/img/wordcloud.svg"}
 

@@ -30,3 +30,17 @@
 #map {
     text-align: right;
 }
+
+#workflow-slide img {
+    border-style: none;
+    background: none;
+    box-shadow: none;
+}
+
+#workflow-wms img {
+    border-style: none;
+    background: none;
+    box-shadow: none;
+    width: 80%;
+    height: auto;
+}
