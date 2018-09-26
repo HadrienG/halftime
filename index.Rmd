@@ -116,3 +116,9 @@ Ultra-deep sequencing of sediment and water samples in close proximity of coral 
 ## Thank you! {#thanks}
 
 ![](assets/img/thank_you.svg)
+
+## Image rights and attributions
+
+- "16s RNA": Public domain
+- "Possible roles between corals and symbionts": CC BY. *Copyright 2017 Peixoto, Rosado, Leite, Rosado and Bourne (doi: 10.3389/fmicb.2017.00341)*
+- All other images: CC BY. *Copyright 2018 Hadrien Gourlé*
