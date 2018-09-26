@@ -27,15 +27,23 @@ output:
 ## Where? {#map data-background="assets/img/map_cropped.png"}
 
   
-
 ## What?
 
 - Monitor the health of coral reefs using bacterial communities
 - Characterize the relationship between corals and their microbial environment
 
-# Survey of the field
+## Why?
 
-## Literature review
+- Bacterial communities relatively understudied
+- We do not know what are their role in the ecosystem
+- Beneficial Microorganisms for corals (BMCs)
+
+# Litterature Review
+
+
+## The 16S <span class=lowercase>r</span>RNA {#sixteen}
+
+![](assets/img/16S.svg)
 
 ## The workflow {#workflow-slide}
 
@@ -83,6 +91,28 @@ Ultra-deep sequencing of sediment and water samples in close proximity of coral 
 
 ## {data-background="assets/img/dive.svg"}
 
+## Surrounding the reef
+
+- 6 sampling sites
+- water and sediment samples
+- NovaSeq sequencing (~ 300G / sample)
+
+## 300G? {#nonpareil}
+
+![](assets/img/nonpareil.png)
+
 ## A dive in the coral reef microbiome
 
-*TODO*
+## {data-background="assets/img/bmc_big.jpg"}
+
+## A dive in the coral reef microbiome
+
+- 10 sampling sites
+- mucus samples
+- DNA and RNA sequencing
+
+# Thank you!
+
+## Thank you! {#thanks}
+
+![](assets/img/thank_you.svg)

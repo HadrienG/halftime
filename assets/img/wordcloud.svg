@@ -9,25 +9,18 @@
 	.st3{fill:#9A80A4;}
 	.st4{font-size:101.7312px;}
 	.st5{fill:#848DA6;}
+	.st6{font-size:101.7277px;}
 </style>
-<g>
-	<defs>
-		<path id="SVGID_1_" d="M0,0h3000v2250H0V0z M0,0h3500v2625H0V0z"/>
-	</defs>
-	<clipPath id="SVGID_2_">
-		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-	</clipPath>
-</g>
-<rect class="st0" width="3500" height="2625"/>
+<rect y="0" class="st0" width="3500" height="2625"/>
 <text transform="matrix(1 0 0 1 608.5635 1202.6129)" class="st1 st2">taxonomic classification</text>
 <text transform="matrix(1 0 0 1 1236.2743 1091.3831)" class="st3 st1 st4">centrifuge</text>
 <text transform="matrix(1 0 0 1 1260.3252 1295.3831)" class="st3 st1 st4">rapsearch</text>
 <text transform="matrix(1 0 0 1 1255.5979 1025.3831)" class="st5 st1 st4">sourmash</text>
 <text transform="matrix(1 0 0 1 1369.1992 1367.3831)" class="st3 st1 st4">diamond</text>
-<text transform="matrix(1 0 0 1 1211.7688 965.3831)" class="st5 st1 st4">mmseqs2</text>
+<text transform="matrix(1 0 0 1 1211.7688 965.3832)" class="st5 st1 st4">mmseqs2</text>
 <text transform="matrix(1 0 0 1 1285.4192 1433.3831)" class="st3 st1 st4">kraken</text>
-<text transform="matrix(1 0 0 1 1267.3643 905.3831)" class="st5 st1 st4">salmon</text>
-<text transform="matrix(1 0 0 1 1135.2842 1367.3831)" class="st5 st1 st4">kaiju</text>
-<text transform="matrix(0.9338 0.3577 -0.3577 0.9338 1479.9363 803.6045)" class="st5 st1 st4">despi</text>
+<text transform="matrix(1 0 0 1 1267.3643 905.3832)" class="st5 st1 st4">salmon</text>
+<text transform="matrix(0.9957 -9.275241e-02 9.275241e-02 0.9957 1138.7483 1377.4204)" class="st5 st1 st4">kaiju</text>
+<text transform="matrix(0.9338 0.3577 -0.3577 0.9338 1479.9364 803.6048)" class="st5 st1 st6">despi</text>
 <text transform="matrix(1 0 0 1 1367.9607 1505.3831)" class="st3 st1 st4">blast</text>
 </svg>

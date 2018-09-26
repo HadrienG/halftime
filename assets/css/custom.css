@@ -1,3 +1,10 @@
+.lowercase {
+  text-transform: lowercase;
+  background-color: transparent !important;
+  opacity: 1 !important;
+  color: #000000 !important;
+  }
+
 .reveal h1 span {
     color: #fefefe;
     background-color: #283c64;
@@ -29,6 +36,28 @@
 
 #map {
     text-align: right;
+}
+
+#sixteen img {
+    border-style: none;
+    background: none;
+    box-shadow: none;
+    height: 650px;
+    width: auto;
+}
+
+#thanks img {
+    border-style: none;
+    background: none;
+    box-shadow: none;
+}
+
+#nonpareil img {
+    border-style: none;
+    background: none;
+    box-shadow: none;
+    height: 600px;
+    width: auto;
 }
 
 #workflow-slide img {
